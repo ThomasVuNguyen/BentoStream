@@ -15,20 +15,21 @@
         <link rel="stylesheet" href="../css/viewer.css" />
     </head>
     <body>
-        <div id="viewerForm" class="viewer center fadeIn">
-            <div id="viewerFormHeader" class="viewer-header not-selectable">
+        <div id="viewerForm" class="viewer center fadeIn" style="background-color:aqua">
+            <!--<div id="viewerFormHeader" class="viewer-header not-selectable">
                 <div class="viewer-info" style="display: none;">
                     <i class="fas fa-user"></i> <span id="myName">Viewer</span> <i class="fas fa-clock"></i>
                     <span id="sessionTime">0s</span>
                 </div>
-            </div>
-            <div class="container">
+            </div>-->
+            <div class="container" >
                 <video class="not-selectable" poster="../assets/images/loader.gif"></video>
                 <div class="video-off">
                     <img id="videoOff" class="video-off" src="../assets/images/videoOff.png" />
                 </div>
             </div>
-            <label id="recordingLabel" class="pulse">🔴 REC: <span id="recordingTime">0S</span></label>
+            <!--<label id="recordingLabel" class="pulse">🔴 REC: <span id="recordingTime">0S</span></label>-->
+            <!--
             <div id="viewerButtons" class="viewer-buttons">
                 <button id="goHome"><i class="fas fa-times"></i></button>
                 <button id="fullScreenOn"><i class="fas fa-expand-alt"></i></button>
@@ -46,7 +47,7 @@
                     <input id="messageInput" maxlength="1024" name="message" placeholder="Type message..." />
                     <button id="messageSend"><i class="fas fa-paper-plane"></i> Send message</button>
                 </div>
-            </div>
+            </div>-->
         </div>
         <script src="/socket.io/socket.io.js"></script>
         <script src="../js/swal.js"></script>

@@ -17,7 +17,7 @@
     <body>
         <div id="viewerForm" class="viewer center fadeIn">
             <div id="viewerFormHeader" class="viewer-header not-selectable">
-                <div class="viewer-info">
+                <div class="viewer-info" style="display: none;">
                     <i class="fas fa-user"></i> <span id="myName">Viewer</span> <i class="fas fa-clock"></i>
                     <span id="sessionTime">0s</span>
                 </div>
@@ -42,8 +42,10 @@
                 <button id="disableAudio"><i class="fas fa-microphone"></i></button>
             </div>
             <div id="messagesForm" class="animate__animated animate__zoomIn">
-                <input id="messageInput" maxlength="1024" name="message" placeholder="Type message..." />
-                <button id="messageSend"><i class="fas fa-paper-plane"></i> Send message</button>
+                <div class="message-container">
+                    <input id="messageInput" maxlength="1024" name="message" placeholder="Type message..." />
+                    <button id="messageSend"><i class="fas fa-paper-plane"></i> Send message</button>
+                </div>
             </div>
         </div>
         <script src="/socket.io/socket.io.js"></script>

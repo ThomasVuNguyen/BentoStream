@@ -139,6 +139,7 @@ Embedding MiroTalk Live Broadcast into a service or app using an iframe.
     src="https://bro.mirotalk.com"
     style="height: 100vh; width: 100vw; border: 0px;"
  ></iframe>
+**Disclaimer:** Through real usage, players with low-end Android devices may experience frame losses and high latency.
 ```
 
 </details>

@@ -8,12 +8,14 @@
 
 </div>
 
+<p align="center">Reference original repository: <a href="https://github.com/miroslavpejic85/mirotalkbro.git">mirotalkbro</a></p>
+
 <p align="center">BentoStream is a minimal streaming solution built for self-hosting. Zero user interaction is required. This works as a replacement of Dolby.io with the goal under 50$/month running</a></p>
 
 
 
 <p align="center">
-    <a href="https://bro.mirotalk.com"><img src="./public/assets/images/ui.png"></a>
+    <a href="https://bro.mirotalk.com"><video src="./assets/bentohome.mov" autoplay loop muted playsinline style="max-width:100%; height:auto;"></video></a>
 </p>
 
 ---
@@ -35,9 +37,9 @@ Start the app using [nodejs](https://nodejs.org/en/download):
 
 ```bash
 # Clone the project repo
-$ git clone https://github.com/miroslavpejic85/mirotalkbro.git
+$ git clone https://github.com/BentoBotFight/BentoStream.git
 # Go to project dir
-$ cd mirotalkbro
+$ cd BentoStream
 # Copy .env.template in .env and edit it if needed
 $ cp .env.template .env
 # Install dependencies
@@ -93,15 +95,11 @@ This application is running for `demonstration purposes` on [Hetzner](https://ww
 
 ---
 
-Use [my personal link](https://hetzner.cloud/?ref=XdRifCzCK3bn) to receive `€⁠20 IN CLOUD CREDITS`.
+Personally, I used a VPS with 4vCPU & 8GB RAM for 10$/month. Works well.
 
 ---
 
-[![Contabo](public/assets/images/contabo.png)](https://www.dpbolvw.net/click-101027391-14462707)
 
-Experience also top-tier German web hosting – dedicated servers, VPS, and web hosting at `unbeatable prices`. Reliable, secure, and backed by 24/7 support. [Explore now here](https://www.dpbolvw.net/click-101027391-14462707)
-
----
 
 To set up your own instance of `MiroTalk BRO` on a dedicated cloud server, please refer to our comprehensive [self-hosting documentation](https://docs.mirotalk.com/mirotalk-bro/self-hosting/). This guide will walk you through the process step by step, ensuring a smooth and successful deployment.
 
@@ -140,7 +138,7 @@ Embedding MiroTalk Live Broadcast into a service or app using an iframe.
     allow="camera; microphone; display-capture; fullscreen; clipboard-read; clipboard-write; web-share; autoplay"
     src="https://bro.mirotalk.com"
     style="height: 100vh; width: 100vw; border: 0px;"
-></iframe>
+ ></iframe>
 ```
 
 </details>
@@ -157,77 +155,13 @@ Embedding MiroTalk Live Broadcast into a service or app using an iframe.
 
 </details>
 
-<details>
-<summary>Credits</summary>
 
-<br>
-
--   Gabriel Tanner [webrtc-broadcast-logic](https://gabrieltanner.org/blog/webrtc-video-broadcast/)
-
-</details>
-
-<details>
-<summary>License</summary>
 
 <br/>
 
-[![AGPLv3](public/assets/images/AGPLv3.png)](LICENSE)
+If you want to use this project but struggle, email me or talk to me on Discord.
 
-MiroTalk BRO is free and open-source under the terms of AGPLv3 (GNU Affero General Public License v3.0). Please `respect the license conditions`, In particular `modifications need to be free as well and made available to the public`. Get a quick overview of the license at [Choose an open source license](https://choosealicense.com/licenses/agpl-3.0/).
-
-To obtain a [MiroTalk BRO license](https://docs.mirotalk.com/license/licensing-options/) with terms different from the AGPLv3, you can conveniently make your [purchase on CodeCanyon](https://codecanyon.net/item/mirotalk-bro-webrtc-p2p-live-broadcast/45887113). This allows you to tailor the licensing conditions to better suit your specific requirements.
-
-</details>
-
-<details open>
-<summary>Support</summary>
-
-<br/>
-
-If MiroTalk BRO has been useful for you and want to contribute to its continued success, consider becoming a backer or sponsor by visiting [this link](https://github.com/sponsors/miroslavpejic85).
-
-Your support means the world to us, and together, we can make MiroTalk Live Broadcast even better! Thank you for being part of this amazing journey. 🌟
+Email: tungvunguyennguyen@gmail.com
+Discord: https://discord.gg/rQWPPPNMmZ
 
 </details>
-
----
-
-## Diving into Additional MiroTalk Projects:
-
-<details>
-<summary>MiroTalk SFU</summary>
-
-<br>
-
-Try also [MiroTalk SFU](https://github.com/miroslavpejic85/mirotalksfu) `selective forwarding unit` real-time video conferences, optimized for large groups. `Unlimited time, unlimited concurrent rooms` each having 8+ participants, up to ~ 100 per single CPU.
-
-</details>
-
-<details>
-<summary>MiroTalk P2P</summary>
-
-<br/>
-
-Try also [MiroTalk P2P](https://github.com/miroslavpejic85/mirotalk) `peer to peer` real-time video conferences, optimized for small groups. `Unlimited time, unlimited concurrent rooms` each having 5-8 participants.
-
-</details>
-
-<details>
-<summary>MiroTalk C2C</summary>
-
-<br>
-
-Try also [MiroTalk C2C](https://github.com/miroslavpejic85/mirotalkc2c) `peer to peer` real-time video conferences, optimized for cam 2 cam. `Unlimited time, unlimited concurrent rooms` each having 2 participants.
-
-</details>
-
-<details>
-<summary>MiroTalk WEB</summary>
-
-<br>
-
-Try also [MiroTalk WEB](https://github.com/miroslavpejic85/mirotalkwebrtc) a platform that allows for the management of an `unlimited number of users`. Each user must register with their email, username, and password, after which they gain access to their `personal dashboard`. Within the dashboard, users can `manage their rooms and schedule meetings` using the desired version of MiroTalk on a specified date and time. Invitations to these meetings can be sent via email, shared through the web browser, or sent via SMS.
-
-</details>
-
----
